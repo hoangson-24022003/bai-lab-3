@@ -5,17 +5,17 @@ Dự án này xây dựng một hệ thống nhỏ gồm **Sender** và **Receiv
 Thiết kế này phù hợp cho mục đích học tập vì giúp quan sát rõ luồng dữ liệu, cấu trúc gói tin và các lỗi giao thức thường gặp. Nó **không an toàn để triển khai ngoài thực tế** vì DES đã lỗi thời, key được truyền dạng plaintext và chưa có cơ chế xác thực toàn vẹn.
 
 ## Team members
-- **Thành viên 1**: [Điền tên thành viên 1] - MSSV: [Điền MSSV thành viên 1]
-- **Thành viên 2**: [Điền tên thành viên 2] - MSSV: [Điền MSSV thành viên 2]
+- **Thành viên 1**: Ngô Văn Kiên - MSSV: 1571020142
+- **Thành viên 2**: Nguyễn Hoàng Sơn - MSSV: 1571020225
 
 ## Task division
-- **Thành viên 1 phụ trách chính**: xây dựng `sender.py`, đóng gói packet, log phía gửi.
-- **Thành viên 2 phụ trách chính**: xây dựng `receiver.py`, xử lý lỗi, log phía nhận.
+- **Nguyễn Hoàng Sơn**: xây dựng `sender.py`, đóng gói packet, log phía gửi.
+- **Ngô Văn Kiên**: xây dựng `receiver.py`, xử lý lỗi, log phía nhận.
 - **Phần làm chung**: kiểm thử, hoàn thiện README, report, threat model và demo.
 
 ## Demo roles
-- **Bạn demo Sender / gói tin / log gửi**: thành viên 1.
-- **Bạn demo Receiver / giải mã / log nhận**: thành viên 2.
+- **Bạn demo Sender / gói tin / log gửi**: Nguyễn Hoàng Sơn.
+- **Bạn demo Receiver / giải mã / log nhận**: Ngô Văn Kiên.
 - **Cả hai cùng trả lời threat model và ethics**: cả hai thành viên.
 
 ## Mục tiêu học tập
